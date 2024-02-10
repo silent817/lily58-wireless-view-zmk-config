@@ -14,7 +14,7 @@
         m1: m1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp M &kp N1 &kp SPACE &kp LS(T) &kp E &kp S &kp T &kp EXCL>;
+            bindings = <&kp M &kp N1 &kp SPACE &kp LS(T) &kp E &kp S &kp T &kp EXCL>;
             label = "M1";
             wait-ms = <10>;
             tap-ms = <10>;
